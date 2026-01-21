@@ -36,7 +36,7 @@ body {
 }
 
 .nav-links a {
-    text-decoration: none;
+    text-decoration: darkcyan;
     color: chocolate;
     font-weight: 500;
     transition: color 0.3s ease;
