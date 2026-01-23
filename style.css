@@ -2,6 +2,6 @@
     text-align: center;
     color: chocolate;
     padding: 9rem;
-    box-shadow: 100000000000000000px 100000000000000000000000px 10000000000000000000px 1000000000000px black;
-    border-radius: 32px;
+    box-shadow: 100px 100px 100px 100px black;
+    border-radius: 20px;
 }
