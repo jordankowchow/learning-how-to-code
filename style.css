@@ -1,7 +1,7 @@
 .header {
     text-align: center;
-    color: rgba(60, 255, 0, 0.767);
-    padding: 2rem;
-    box-shadow: 2px 2px 2px 2px black;
+    color: chocolate;
+    padding: 9rem;
+    box-shadow: 100px 100px 100px 100px black;
     border-radius: 20px;
 }
