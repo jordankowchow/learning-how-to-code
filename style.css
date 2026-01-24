@@ -73,7 +73,7 @@ body {
     padding: 1rem 2rem;
     background-color: #84d8ff96;
     color: white;
-    text-decoration: none;
+    text-decoration: darkgreen;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
