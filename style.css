@@ -84,3 +84,70 @@ body {
     height: 200px;           
     border: 3px solid black;
   }
+
+/* To-Do app styles */
+.todo-app {
+    max-width: 640px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+.todo-app h2 {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.25rem;
+}
+.todo-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+.todo-controls input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.todo-controls button {
+    padding: 0.5rem 0.75rem;
+    border: none;
+    background: #3498db;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.todo-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+.todo-list li .left {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+.todo-list li.completed .label {
+    text-decoration: line-through;
+    color: #888;
+}
+.todo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+.todo-footer button {
+    background: transparent;
+    border: 1px solid #ddd;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
